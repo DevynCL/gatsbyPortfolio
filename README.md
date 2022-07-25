@@ -59,7 +59,8 @@ $ git clone https://github.com/cobidev/gatsby-simplefolio
 $ cd gatsby-simplefolio
 
 # Remove current origin repository
-$ git remote remove origin
+$ 
+
 ```
 
 Then you can install the dependencies either using NPM or Yarn:
