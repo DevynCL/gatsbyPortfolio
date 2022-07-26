@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello, my name is',
+  title: '',
   name: 'Devyn Cushing-Lewis',
-  subtitle: "I'm Front-End Developer",
+  subtitle: "I am a Front-End Developer",
   cta: 'Know more',
 };
 
@@ -47,15 +47,15 @@ export const projectsData = [
     url: 'https://cozy-lily-3835ab.netlify.app/',
     repo: 'https://github.com/DevynCL/realestate', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'Todo.png',
+    title: 'Todo List Web App',
+    info: 'Simple todo-list with the ability to add, remove, and update personal task with a clean UI.',
+    info2: '',
+    url: 'https://legendary-kataifi-3fbc23.netlify.app/',
+    repo: 'https://github.com/DevynCL/todolist', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'CryptoWebsite.png',
