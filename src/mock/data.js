@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import Resume from '../images/ResumeJuly.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -24,7 +25,7 @@ export const aboutData = {
     'While my background is based around business within the IT world, I realized I wanted to be on the development side of the equation while utilizing my professional sales skills from prior education and work experience.',
   paragraphThree:
     ' The satisfaction of continuing to learn new things while overcoming challenges is why I enjoy development.',
-  resume: 'ResumeJuly.png', // if no resume, the button will not show up
+  resume: {Resume}, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,7 +33,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Shopfly.png',
-    title: 'E-Commerce Shopping Website with React.js and Stripe',
+    title: 'E-Commerce Shopping Website with React, Next.js, and Stripe',
     info: 'Shopping website template that utilizes Stripe for payment and card processing.',
     info2: '',
     url: 'https://shopflycommercejs.netlify.app/',
@@ -41,7 +42,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Realestate.png',
-    title: 'Real Estate Website using Chakra and Next.js',
+    title: 'Real Estate Website using React, Chakra, and Next.js',
     info: 'A Real Estate website that pushes new listings and allows viewers to filter between renting and buying property.',
     info2: '',
     url: 'https://cozy-lily-3835ab.netlify.app/',
@@ -50,7 +51,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Todo.png',
-    title: 'Todo List Web App',
+    title: 'Todo List React.js App',
     info: 'Simple todo-list with the ability to add, remove, and update personal task with a clean UI.',
     info2: '',
     url: 'https://legendary-kataifi-3fbc23.netlify.app/',
@@ -59,7 +60,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'CryptoWebsite.png',
-    title: 'Crypto React Website',
+    title: 'Crypto React.js Website',
     info: 'A simple website application that can fetch and check current cryptocurrency',
     info2: '',
     url: 'https://poetic-piroshki-44d0be.netlify.app/',
