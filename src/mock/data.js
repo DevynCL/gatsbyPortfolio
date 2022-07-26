@@ -1,5 +1,7 @@
 import { nanoid } from 'nanoid';
 import Resume from '../images/ResumeJuly.pdf';
+import File from '../../src/pdf/ResumeJuly.pdf';
+
 
 // HEAD DATA
 export const headData = {
@@ -25,7 +27,7 @@ export const aboutData = {
     'While my background is based around business within the IT world, I realized I wanted to be on the development side of the equation while utilizing my professional sales skills from prior education and work experience.',
   paragraphThree:
     ' The satisfaction of continuing to learn new things while overcoming challenges is why I enjoy development.',
-  resume: {Resume}, // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1apUOpSbGQPq9uPX1HJY_j7mKNPSx-n8W/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
